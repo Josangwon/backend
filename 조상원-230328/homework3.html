@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>회원가입</title>
+</head>
+<body>
+	<form action="homework3_1.jsp" method="post">
+	<h2>회원가입</h2>
+	아이디: <input type="text" name="id"> <br><br>
+	비밀번호: <input type="password" name="pwd"> <br><br>
+	이 름: <input type='text' name='name'> <br><br>
+	이메일: <input type='text' name='email'> <br><br>
+	성별: <input name="gender" type="radio" value="남">남
+       <input name="gender" type="radio" value="여">여 <br><br>
+	주소지<br> 
+	<select size="4" name="local">
+  	<option selected>서울</option>
+    <option value="경기">경기</option>
+    <option>부산</option>
+    <option value="기타">기타</option>
+  </select> <br><br>
+	가입경로(CTRL키를 누른상태로 중복선택 가능)<br>
+	<select name="root" multiple>
+		<option value="웹검색">웹검색</option>
+    <option value="sns">SNS</option>
+    <option value="지인소개">지인소개</option>
+    <option value="기타">기타</option>
+	</select> <br><br>
+	<input type="submit" value="가입">
+</form>
+
+</body>
+</html>
